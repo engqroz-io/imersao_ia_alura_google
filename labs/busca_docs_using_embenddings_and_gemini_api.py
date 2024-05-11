@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 import google.generativeai as genai
 
-GOOGLE_API_KEY="AIzaSyDTpww1R3TBjPGJWU1lGoyGqaZ7fqyBrtY"
+GOOGLE_API_KEY=""
 genai.configure(api_key=GOOGLE_API_KEY)
 
 for m in genai.list_models():
